@@ -1,0 +1,366 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1148px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header {
+  background-color: black;
+  padding: 35px 0;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+header nav ul li:not(:nth-child(1)) {
+  margin-left: 32px;
+}
+
+header nav ul li:nth-child(2) {
+  margin-left: 56px;
+}
+
+header nav ul li:nth-child(5) {
+  margin-left: 31px;
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 11px 20px;
+}
+
+header nav ul li:nth-child(5) a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+header nav ul li:first-of-type a {
+  font-size: 13px;
+}
+
+.button-burger-white {
+  display: none;
+}
+
+/* ? main banner  */
+
+.main-banner {
+  padding: 21px 0 200px;
+}
+
+.top-pic {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.form-lets-talk h3 {
+  font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.form-lets-talk label {
+  display: block;
+}
+
+.form-lets-talk label:nth-child(1) {
+  margin-bottom: 40px;
+  ;
+
+}
+
+.form-lets-talk label:nth-child(2) {
+  margin-bottom: 40px;
+  ;
+}
+
+.form-lets-talk label:nth-child(3) {
+  margin-bottom: 60px;
+  ;
+}
+
+.form-lets-talk {
+  max-width: 392px;
+}
+
+.form-lets-talk input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  min-width: 392px;
+}
+
+.form-lets-talk textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  resize: none;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  padding-bottom: 3px;
+}
+
+.form-lets-talk button {
+  padding: 20px 50px;
+  background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+  box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  border: none;
+}
+
+.chair-jpg {
+  max-width: 615px;
+}
+
+.chair-jpg img {
+  width: 100%;
+  display: block;
+}
+
+.main-banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ? accordion section */
+
+.accordion-section {
+  padding: 60px 0;
+  background-image: url(../images/img-full-section-new.png);
+  background-color: #4C6071;
+}
+
+.container-accordion {
+  max-width: 1188px;
+  margin: auto;
+}
+
+.accordion-section img {
+  width: 100%;
+  display: block;
+}
+
+.description-for-service {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.description-for-service p {
+  font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.wich-service {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 30px;
+}
+
+.header h4 {
+  font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.header p {
+  font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: right;
+  color: #000000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 20px;
+}
+
+.background-for-types-of-service {
+  max-width: 1128px;
+  border-radius: 20px;
+  padding: 30px 39px 30px 22px;
+  background-color: rgba(76, 96, 113, 1);   
+  display: flex;
+  justify-content: space-between;
+}
+.wraper-for-services {
+  max-width: 408px;
+}
+
+.types-of-service {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 408px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.types-of-service label {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.types-of-service input {
+  margin-left: 97px;
+}
+
+.types-of-service-two {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 408px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.types-of-service-two input {
+  margin-left: 258px;
+}
+
+.types-of-service-two label {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.types-of-service-three {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 408px;
+  box-sizing: border-box;
+}
+
+.types-of-service-three label {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.types-of-service-three input {
+  margin-left: 243px;
+  position: relative;
+  bottom: 15px;
+}
+
+.img-and-buttons {
+  max-width: 610px;
+}
+
+.img-above-button {
+  max-width: 610px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img-above-button img {
+  width: 100%;
+  display: block;
+}
+
+.buttons-next-prev {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev {
+  padding: 20px 116px;
+  background: #8F8F8F;
+  box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  border: none;
+}
+
+.next {
+  padding: 20px 116px;
+  background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+  box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+}
+
